@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background: linear-gradient(#ee1840, #e818ee, #00d4ff);
+    color: white;
+}
+
+#bio {
+    border: solid 2px yellow;
+    padding: 20px;
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    color: black;
+    text-shadow: 3px 4px lime;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#tennis {
+    border: dashed 3px orange;
+    height: 250px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.menu {
+    text-align: left;
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    z-index: 10px;
+    cursor: pointer;
+}
+
+.link {
+    color: aquamarine;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+links:hover {
+    background-color:darkorange;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
